@@ -1,0 +1,35 @@
+#thinker{
+    width: 300px;
+    height: auto;
+}
+
+/* The element to apply the animation to */
+#image{
+    width: 300px;
+    height: auto;
+    animation-name: golden-cup;
+    animation-duration: 1s;
+}
+
+/* The animation code */
+@keyframes golden-cup {
+    0%   {width: 300px; height: auto;}
+    25%  {width: 310px; height: auto;}
+    50%  {width: 320px; height: auto;}
+    75%  {width: 310px; height: auto;}
+    100% {width: 300px; height: auto;}
+  }
+
+.footer {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    width: 100%;
+    padding-top: 10px;
+    font-size: 20px;
+    color: black;
+}
